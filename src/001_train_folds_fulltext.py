@@ -15,8 +15,8 @@ fold = int(sys.argv[1])
 
 # 读取预处理完的文件
 
-train = pd.read_pickle('train_fulltext.pickle')
-test = pd.read_pickle('test_fulltext.pickle')
+train = pd.read_pickle('train_fulltext_final.pickle')
+test = pd.read_pickle('test_fulltext_final.pickle')
 
 df_label = pd.read_pickle('df_label.pickle')
 
